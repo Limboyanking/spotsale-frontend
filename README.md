@@ -33,3 +33,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Implement the search results page based on category options
 
 ## Implement the authentication mechanism for user Sign In and Sign Up
+
+## Create a dedicated GitHub Dev Branch - mechanism for the developer to fix the reported bugs 
+
+## Implement a version control system fro the codebase on the SpotSale site (GitHub platform, with Dev, Test, and Prod branches) 
