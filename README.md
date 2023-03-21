@@ -29,3 +29,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Design and implement the Sign In and Sign Up pages on the SpotSale site (UI/UX)
 
 ## Design and implement the listings page (aka Dashboard) on the SpotSale site
+
+## Implement the search results page based on category options
