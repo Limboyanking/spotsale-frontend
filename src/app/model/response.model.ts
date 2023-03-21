@@ -1,4 +1,5 @@
 export class ResponseModel {
+    isOwner: boolean;
 
     constructor(
         public success?: boolean,

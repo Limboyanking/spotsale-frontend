@@ -25,6 +25,10 @@ export class ProductRepository {
 
     }
 
+    hasOwnershipOrNot(product: Product):boolean{
+        return (product.owner == this.dataSource.user_id);
+    }
+
     //Methods
     //_CRUD
     //__Read methods

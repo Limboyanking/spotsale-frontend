@@ -10,6 +10,7 @@ export class AuthService {
 
     public username: string;
     private _redirectUrl: string;
+    // public autoToken: string;
 
     constructor(private datasource: RestDataSource) { }
 
@@ -19,6 +20,7 @@ export class AuthService {
                 if(response.success)
                 {
                     this.username = username;
+                    // this.autoToken = this.datasource.auth_token;
                 }
                 return response;
             }));

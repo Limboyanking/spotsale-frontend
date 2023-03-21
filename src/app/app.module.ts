@@ -9,10 +9,9 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AuthGuard } from "./auth/auth.guard";
 
-
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,

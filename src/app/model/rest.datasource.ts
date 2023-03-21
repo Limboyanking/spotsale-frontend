@@ -124,6 +124,20 @@ export class RestDataSource {
         catchError(error => { return of(error.error) }));
   }
 
+  checkOwnership(productId: string): Observable<boolean> {
+    return this.http.get<ResponseModel>(
+      `${this.baseUrl}/advertisement/check-ownership/${productId}`,
+      this.provideToken()
+    ).pipe(
+      map(response => {
+        return response.success ? response.isOwner : false;
+      }),
+      catchError(error => {
+        return of(false);
+      })
+    );
+  }
+
   // Previously called getOptions()
   private provideToken() {
     return {

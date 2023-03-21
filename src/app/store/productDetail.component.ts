@@ -8,6 +8,7 @@ import { Router, ActivatedRoute } from "@angular/router";
 import { NgForm } from "@angular/forms";
 import { ProductRepository } from "../model/product.repository";
 import { Product } from "../model/product.model";
+import { AuthService } from "../model/auth.service";
 
 @Component({
     templateUrl: "productDetail.component.html",
@@ -21,10 +22,17 @@ export class ProductDetailComponent {
     public product: Product = new Product();
     public expDateValue: string;
     public currentDate : Date = new Date();
+    public hasOwnership : boolean = false;
 
     constructor(private repository: ProductRepository,
         private router: Router,
+        private authService: AuthService,
         activeRoute: ActivatedRoute) {
+        
+        // const currentUser = ;
+        // if (currentUser && currentUser.id === this.product.owner) {
+        //     this.hasOwnership = true;
+        // }    
 
         //decide if the page is for edit or create
         this.editing = activeRoute.snapshot.params["mode"] == "edit";
@@ -36,6 +44,14 @@ export class ProductDetailComponent {
                 // console.log(new Date(Date.parse(this.product.expiryDate.toString()) - this.currentDate.getTimezoneOffset()*60000).toISOString().slice(0, 16));
                 this.expDateValue = new Date(Date.parse(this.product.expiryDate.toString()) - this.currentDate.getTimezoneOffset()*60000).toISOString().slice(0, 16);
         }
+
+        //Check Onwnership
+        // if (this.authService.authenticated &&
+        //     this.authService.username === this.product.owner
+        //   ) {
+        //     this.hasOwnership = true;
+        //   }
+
         // Delete
         if (activeRoute.snapshot.params["mode"] == "delete") {
             this.deleteProduct(activeRoute.snapshot.params["id"]);
