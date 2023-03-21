@@ -1,6 +1,5 @@
 /**
   Title:       SpotSale
-  IDs:         301208156, 301236904, 301251832, 301313468, 301268678
   Description: logic for adv page.
 */
 import {Component, ElementRef, ViewChild} from "@angular/core";
@@ -22,6 +21,7 @@ export class AdvComponent {
     @ViewChild('btnAddQuestion') btnAddQuestion: ElementRef;
     @ViewChild('Q&A') QA: ElementRef;
 
+    //filter to exclude the deactivated advertisements from the listings page
     constructor(private repository: ProductRepository,
         private router: Router,
         activeRoute: ActivatedRoute,

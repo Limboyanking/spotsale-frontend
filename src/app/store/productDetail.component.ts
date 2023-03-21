@@ -1,7 +1,7 @@
 /**
   Title:       SpotSale
-  IDs:         301208156, 301236904, 301251832, 301313468, 301268678
-  Description: logic for creating and editing a product ad.
+  Description: logic for creating and editing a product ad 
+    including activation ops conducted by the user.
 */
 import { Component } from "@angular/core";
 import { Router, ActivatedRoute } from "@angular/router";

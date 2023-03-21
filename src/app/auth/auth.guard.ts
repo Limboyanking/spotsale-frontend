@@ -1,3 +1,7 @@
+/*
+Activation Control
+*/
+
 import { Injectable } from "@angular/core";
 import {
     ActivatedRouteSnapshot, 
@@ -18,7 +22,8 @@ export class AuthGuard {
         private auth: AuthService,
         private dataSource: RestDataSource,
         private repository: ProductRepository) { }
-
+    
+    // Return to signin page when there is no token
     canActivate(route: ActivatedRouteSnapshot,
                 state: RouterStateSnapshot): boolean 
     {

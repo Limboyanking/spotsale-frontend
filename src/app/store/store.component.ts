@@ -1,6 +1,5 @@
 /**
   Title:       SpotSale
-  IDs:         301208156, 301236904, 301251832, 301313468, 301268678
   Description: logic for landing page.
 */
 import { Component } from "@angular/core";
