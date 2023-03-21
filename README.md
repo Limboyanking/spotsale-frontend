@@ -33,3 +33,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Implement the search results page based on category options
 
 ## Implement the authentication mechanism for user Sign In and Sign Up
+
+
+## Design and implement a code review process for the SpotSale site
