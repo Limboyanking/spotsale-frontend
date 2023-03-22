@@ -39,3 +39,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Implement a version control system for the codebase on the SpotSale site (GitHub platform, with Dev, Test, and Prod branches) 
 
 ## Investigate and decide which date/time plugin will be most suitable for the expiration feature 
+
+## Provide a dedicated Test Case & Defects Management
+## Maintain common theme throughout website to make it user friendly and cohesive
