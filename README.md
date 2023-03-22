@@ -37,3 +37,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Create a dedicated GitHub Dev Branch - mechanism for the developer to fix the reported bugs 
 
 ## Implement a version control system for the codebase on the SpotSale site (GitHub platform, with Dev, Test, and Prod branches) 
+
+## Investigate and decide which date/time plugin will be most suitable for the expiration feature 
