@@ -3,7 +3,8 @@
   Description: logic for creating and editing a product ad 
     including activation ops conducted by the user.
     including message(Q&A) ops. 
-    including test unit....
+    including test unit.
+
 */
 import { Component } from "@angular/core";
 import { Router, ActivatedRoute } from "@angular/router";
@@ -53,7 +54,7 @@ export class ProductDetailComponent {
         //   ) {
         //     this.hasOwnership = true;
         //   }
-
+        //
         // Delete
         if (activeRoute.snapshot.params["mode"] == "delete") {
             this.deleteProduct(activeRoute.snapshot.params["id"]);
