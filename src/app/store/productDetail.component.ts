@@ -4,7 +4,6 @@
     including activation ops conducted by the user.
     including message(Q&A) ops. 
     including test unit.
-
 */
 import { Component } from "@angular/core";
 import { Router, ActivatedRoute } from "@angular/router";
