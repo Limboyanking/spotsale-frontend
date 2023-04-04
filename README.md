@@ -53,3 +53,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Implement the functionality for sellers to receive and respond to messages from buyers
 
 ## Implement the functionality to allow the seller to create an advertisement
+
+## Design and implement the advertisement edit page on the SpotSale site
