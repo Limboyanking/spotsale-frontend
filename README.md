@@ -48,5 +48,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Implement the functionality for buyers to leave a message to an advertisement
 
-
+## Code review process of the Pull Requests on GitHub (2nd iteration)
  
+ ## Implement the functionality for sellers to receive and respond to messages from buyers
