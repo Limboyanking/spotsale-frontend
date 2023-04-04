@@ -42,3 +42,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Provide a dedicated Test Case & Defects Management
 ## Maintain common theme throughout website to make it user friendly and cohesive
+
+## Code review process of the Pull Requests on GitHub (2nd iteration)
