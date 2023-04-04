@@ -41,4 +41,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Investigate and decide which date/time plugin will be most suitable for the expiration feature 
 
 ## Provide a dedicated Test Case & Defects Management
+
 ## Maintain common theme throughout website to make it user friendly and cohesive
+
+## Investigate and implement performance improvement measures for the SpotSale site
+
+
+ 
