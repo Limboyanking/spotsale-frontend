@@ -1,5 +1,6 @@
 /*
 Activation Control
+    In response to edit control for sellers.
 */
 
 import { Injectable } from "@angular/core";
