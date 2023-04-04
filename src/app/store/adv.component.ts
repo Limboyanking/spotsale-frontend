@@ -1,6 +1,7 @@
 /**
   Title:       SpotSale
   Description: logic for adv page.
+    Including creation logic
 */
 import {Component, ElementRef, ViewChild} from "@angular/core";
 import { Router, ActivatedRoute } from "@angular/router";
