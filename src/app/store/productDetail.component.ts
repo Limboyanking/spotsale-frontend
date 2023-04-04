@@ -2,6 +2,7 @@
   Title:       SpotSale
   Description: logic for creating and editing a product ad 
     including activation ops conducted by the user.
+    including message(Q&A) ops. 
 */
 import { Component } from "@angular/core";
 import { Router, ActivatedRoute } from "@angular/router";
